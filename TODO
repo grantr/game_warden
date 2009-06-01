@@ -1,0 +1,3 @@
+handle connection loss
+add flapping protection (cycles)
+use prefix everywhere

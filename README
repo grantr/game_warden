@@ -1,0 +1,9 @@
+Use Apache ZooKeeper to manage dynamic configuration of distributed systems
+
+GameWarden is a simple JRuby watchdog client that maintains ZK nodes and responds to events on other nodes.  
+
+See config.rb in the example directory for the dsl syntax.
+
+Uses Shane Mingins' zookeeper wrapper for JRuby (http://github.com/smingins/zookeeper)
+
+NOT PRODUCTION READY - FOR EDUCATIONAL PURPOSES ONLY
