@@ -1,0 +1,12 @@
+#!/usr/bin/env jruby
+
+config_file = ARGV[0]
+
+unless config_file
+  puts "USAGE: game_warden <config_file>"
+  exit 1
+end
+
+require File.join(File.dirname(__FILE__), '../lib/game_warden')
+
+GameWarden.run(config_file)
